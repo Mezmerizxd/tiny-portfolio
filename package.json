@@ -1,0 +1,18 @@
+{
+  "name": "tiny-portfolio",
+  "private": false,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "docker": "docker build -t tiny-portfolio ."
+  },
+  "dependencies": {
+    "svelte-icons": "^2.1.0",
+    "@sveltejs/vite-plugin-svelte": "^1.1.0",
+    "svelte": "^3.52.0",
+    "vite": "^3.2.3"
+  }
+}
