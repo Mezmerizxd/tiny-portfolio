@@ -6,8 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "docker": "docker build -t tiny-portfolio ."
+    "preview": "vite preview"
   },
   "dependencies": {
     "svelte-icons": "^2.1.0",

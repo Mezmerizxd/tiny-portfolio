@@ -1,12 +1,12 @@
 FROM node:16.17.0
 
-WORKDIR /usr/src/
+WORKDIR /usr/src/tiny-portfolio/
 
 COPY ./package.json ./
 
 COPY . .
 
-RUN yarn
+RUN yarn --production=true
 
 RUN yarn build
 
